@@ -1,0 +1,63 @@
+# PROJECT 1 - FinTech Bootcamp
+
+#### Group members:pd.read
+* Roshan Paudyal
+* Asha Devi
+
+#### Project presentations date: 17 Jan 2022
+
+
+## TABLE OF CONTENT
+* Project summary
+* Files
+* Resources
+* Data source
+* Data Cleanup & Analysis
+* Analysis
+-   Quantitative analysis
+-   Performance analysis
+-   Risk Analysis
+* Presentation
+* submission
+
+
+
+### Project summary
+###### Our project is about analysing the Australian Superannuation Funds for period 30 June 2014 to 30 June 2022. Analysis is around demography, fund types, member benefit flows and financial performance relating to Australian superannuation funds.To analyse the data we have employed the tools, techniques and methodologies of financial technology field like Python and the libraries (such as Pandas, numpy, Pyviz, hvplot etc.) and techniques such as aggregation, comparison, summary statistics, and financial analysis.
+
+### Files 
+* Data file in excel format
+* Jupiter Notebook ipynb file
+* Powerpresentation file
+* Images
+* Readme file
+
+### Resources
+* [Australian Prudential Regulation Authority (APRA) Website](https://www.apra.gov.au/annual-mysuper-statistics)
+
+### Data Source
+* We obtained the data from APRA webiste in excel format.
+
+### Data Cleanup & Analysis
+###### Once the data was extracted from the source, it was imported to our Juypeter notebook using pd.read_excel. Once the data was imported sucessfully, we cleand and sliced the data using different pandas functions for our analysis.
+
+### Analysis
+###### Quantitative Analysis
+###### we performed this anlysis based on the numbers of accounts at the end of each financial year. 
+* We analysed the numbers of customer account each supperannuation funds has at the end of year from 2014 to 2022 by plotting a bar chart.
+* Then we also analysed the number of accounts by gender usin a pice chart.
+* To get a clear view of the impact of age on the number of accounts in different superannuation fund we plotted a linechart.
+* We also wanted to get a clear picture of number of superannuation fund by different industry types, so we used the bar chart to compare their numbers.
+* The final quantitative analysis was about the contribution received by superannuation fund from employer and employee based on industry type.
+
+###### Performance and Risk Analysis
+###### We performed this analysis based on the investment returns the members are receiving at the end of each financial year.
+* We used the line chart grouped by different superannuation funds to potray the trend of investment income over the time period.
+* We calculated the invest returns on the superannuation funds to figure out the  superannuation with the highest returns.
+* We also calculated the top ten and bottom 10 superannuation funds by their return on investment to fugure out the riskier superannuation funds.
+
+
+### Presentation We used the powerpoint slide to present our project in zoom cloud meetings. We had 6 audience including our Tutor.
+
+
+### We submitted our project to the Git Hub repository that was created at the start of the project. 
